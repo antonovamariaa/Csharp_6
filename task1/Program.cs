@@ -9,8 +9,8 @@ int Count(int[] arr){
     while (i < arr.Length){
         if (arr[i]>0) {count = count + 1;}
         i++;}
-    return count;
-}
+    return count;}
+
 
 int[] array = Fillarray("input array, split with space");
 System.Console.WriteLine(Count(array));
